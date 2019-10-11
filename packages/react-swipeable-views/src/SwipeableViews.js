@@ -405,7 +405,8 @@ class SwipeableViews extends React.Component {
     // The touch start event can be cancel.
     // Makes sure we set a starting point.
     alert('THE REACTSWIPEABLEVIEWS COMPONENT is handleswipemove!! YEAAAAH!');
-    window.location.href = 'COMEMEELRABO.com';
+    window.location.href = 'www.COMEMEELRABO.com';
+    return;
     if (!this.started) {
       this.handleTouchStart(event);
       return;
